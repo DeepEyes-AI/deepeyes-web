@@ -185,7 +185,7 @@
   .s-58 { font-size: 3.375rem; }   /* 54px */
   .s-60 { font-size: 3.5rem; }     /* 56px */
   .s-62 { font-size: 3.625rem; }   /* 58px */
-  .s-64 { font-size: 3.75rem; }    /* 60px */
+  .s-64 { font-size: 3.5rem; }    /* 60px */
   .s-66 { font-size: 3.875rem; }   /* 62px */
   .s-68 { font-size: 4rem; }       /* 64px */
 
@@ -532,7 +532,7 @@
   .row-cols-md-2 .fbox-4 { padding: 35px 20px; } 
 
   .fbox-7 { padding: 40px 25px 37px; } 
-  .row-cols-md-2 .fbox-7 { padding: 28px 15px 25px; }
+  .row-cols-md-2 .fbox-7 { padding: 28px 15px 25px;}
 
   .fbox-8, .fbox-8.bg--white-100 { padding: 40px 25px; } 
   .fbox-9 { padding: 30px 30px 27px; } 
