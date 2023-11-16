@@ -153,7 +153,7 @@ section,
 .py-70 { padding-top: 70px; padding-bottom: 70px; }
 .py-80 { padding-top: 80px; padding-bottom: 80px; }
 .py-90 { padding-top: 90px; padding-bottom: 90px; }
-.py-100 { padding-top: 100px; padding-bottom: 100px; }
+.py-100 { padding-top: 40px; padding-bottom: 40px; }
 
 .pt-30 { padding-top: 30px; }
 .pt-40 { padding-top: 40px; }
@@ -3595,7 +3595,7 @@ span.sm-info {
 /*------------------------------------------*/
 #hero-11::before {
   content: "";
-  background-image: url(../images/hero-22.jpg);
+  background-image: url(../images/hero-11.jpg);
   filter: blur(6px); /* Điều chỉnh giá trị này để kiểm soát độ mờ của nền */
   position: absolute;
   top: 0;
@@ -3607,7 +3607,7 @@ span.sm-info {
 
 #hero-11 {
   overflow: hidden;
-  background-image: url(../images/hero-22.jpg);
+  background-image: url(../images/hero-11.jpg);
   padding-top: 50px;
   background-size: 150%; /* Điều chỉnh giá trị này để làm cho background nhỏ đi, ví dụ 90% */
 }
