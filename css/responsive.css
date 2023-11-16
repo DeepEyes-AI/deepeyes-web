@@ -183,7 +183,7 @@
   .s-54 { font-size: 3.125rem; }   /* 50px */ 
   .s-56 { font-size: 3.25rem; }    /* 52px */
   .s-58 { font-size: 3.375rem; }   /* 54px */
-  .s-60 { font-size: 3.5rem; }     /* 56px */
+  .s-60 { font-size: 2.9rem; }     /* 56px */
   .s-62 { font-size: 3.625rem; }   /* 58px */
   .s-64 { font-size: 3.5rem; }    /* 60px */
   .s-66 { font-size: 3.875rem; }   /* 62px */
@@ -1316,7 +1316,7 @@
   .s-52, .s-54 { font-size: 2.79411rem; }          /* 38px */
   .s-56 { font-size: 2.94117rem; }                 /* 40px */
   .s-58 { font-size: 3.08823rem; }                 /* 42px */
-  .s-60 { font-size: 3.23529rem; }                 /* 44px */
+  .s-60 { font-size: 2.9rem; }                 /* 44px */
   .s-62 { font-size: 3.38235rem; }                 /* 46px */
   .s-64 { font-size: 3.52941rem; }                 /* 48px */
   .s-66 { font-size: 3.67647rem; }                 /* 50px */

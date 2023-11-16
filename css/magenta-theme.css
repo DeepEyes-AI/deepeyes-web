@@ -599,12 +599,12 @@ p.p-xl { font-size: 1.2rem; }      /* 19.2px */
 .s-46 { font-size: 2.875rem; }   /* 46px */
 .s-47 { font-size: 2.9375rem; }  /* 47px */
 .s-48 { font-size: 3rem; }       /* 48px */
-.s-50 { font-size: 3.125rem; }   /* 50px */
+.s-50 { font-size: 2.9rem; }   /* 50px */
 .s-52 { font-size: 3.25rem; }    /* 52px */
 .s-54 { font-size: 3.375rem; }   /* 54px */
 .s-56 { font-size: 3.5rem; }     /* 56px */
 .s-58 { font-size: 3.625rem; }   /* 58px */
-.s-60 { font-size: 3.75rem; }    /* 60px */
+.s-60 { font-size: 2.8rem; }    /* 60px */
 .s-62 { font-size: 3.875rem; }   /* 62px */
 .s-64 { font-size: 4rem; }       /* 64px */
 .s-66 { font-size: 4.125rem; }   /* 66px */
@@ -3265,7 +3265,8 @@ span.sm-info {
 /*------------------------------------------*/
 
 .hero-section h2 {
-  margin-bottom: 28px;
+  margin-bottom: 70px;
+
 }
 
 .hero-section h2.s-48,
