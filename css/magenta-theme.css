@@ -13106,7 +13106,6 @@ body.theme--dark {
   padding-left: 15px;
   font-size: 14px;
   border: none;
-  width: 400px;
   height: 46px;
 }
 
@@ -13156,7 +13155,7 @@ body.theme--dark {
 }
 
 #features-9 .prev {
-  cursor: pointer;
+  cursor: not-allowed;
   background-color: #D9D9D9;
   width: 60px;
   height: 60px;
@@ -13167,7 +13166,7 @@ body.theme--dark {
 }
 
 #features-9 .next {
-  cursor: pointer;
+  cursor: not-allowed;
   background-color: #D9D9D9;
   width: 60px;
   height: 60px;
@@ -13179,6 +13178,7 @@ body.theme--dark {
 
 #features-9 .arrow-active {
   background-color: #0F8CE9;
+  cursor: pointer;
 }
 
 #features-9 .arrow-pre-next {
@@ -13190,18 +13190,32 @@ body.theme--dark {
 @media (min-width: 480px) and (max-width: 767.98px) {
   .container-footer {
     max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .email-address input {
+    width: 300px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container-footer {
     max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199.95px) {
   .container-footer {
     max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .email-address input {
+    width: 350px;
   }
 }
 
@@ -13209,20 +13223,29 @@ body.theme--dark {
 @media (min-width: 1200px) {
   .container-footer {
     max-width: 1140px;
-  }
-
-  @media (min-width: 1536px) {
-    .container-footer {
-      max-width: 1450px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+    margin-left: auto;
+    margin-right: auto;
   }
 }
+
+@media (min-width: 1536px) {
+  .container-footer {
+    max-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .email-address input {
+    width: 400px;
+  }
+}
+
 
 @media (min-width: 1400px) {
   .container-footer {
     max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
