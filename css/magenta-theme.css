@@ -205,6 +205,12 @@ section,
   -o-border-radius: 100px;
   border-radius: 100px;
 }
+.r-full {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
 
 /*------------------------------------------*/
 /*  OPACITY SETTINGS
@@ -322,6 +328,11 @@ section,
 .py-100 {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.px-130 {
+  padding-left: 130px;
+  padding-right: 130px;
 }
 
 .pt-30 {
@@ -493,6 +504,9 @@ section,
 .ml-5 {
   margin-left: 5px;
 }
+.ml-7 {
+  margin-left: 7px;
+}
 .ml-10 {
   margin-left: 10px;
 }
@@ -508,9 +522,15 @@ section,
 .ml-30 {
   margin-left: 30px;
 }
+.ml-40 {
+  margin-left: 40px;
+}
 
 .mr-5 {
   margin-right: 5px;
+}
+.mr-7 {
+  margin-right: 7px;
 }
 .mr-10 {
   margin-right: 10px;
@@ -526,6 +546,9 @@ section,
 }
 .mr-30 {
   margin-right: 30px;
+}
+.mr-40 {
+  margin-right: 40px;
 }
 
 /*------------------------------------------*/
@@ -1067,6 +1090,16 @@ hr.divider {
   opacity: 0.4;
   border: none;
   margin: 0;
+}
+
+hr.solutions {
+  width: 100%;
+  height: 1px;
+  background-color: #5c9fdc;
+  stroke-width: 2px;
+  border: none;
+  opacity: 1;
+  overflow: visible;
 }
 
 /*------------------------------------------*/
@@ -3262,6 +3295,14 @@ p.video-txt-sm {
 
 .color--gray-300 {
   color: #686868 !important;
+}
+
+.color--gray-400 {
+  color: var(--Neutral-600, #586174) !important;
+}
+
+.color--black-300 {
+  color: #001A4D !important;
 }
 
 /* ==========================================================================
@@ -5821,6 +5862,11 @@ span.sm-info {
 /*  FBOX-2 IMAGE
 /*------------------------------------------*/
 
+.fbox-2 {
+  min-height: 400px;
+  box-shadow: 1px 3px 15px 0px rgba(0, 0, 0, 0.05);
+}
+
 .fbox-2 .fbox-img {
   -webkit-border-radius: 12px 12px 0 0;
   -moz-border-radius: 12px 12px 0 0;
@@ -5973,6 +6019,10 @@ span.sm-info {
   margin-bottom: 10px;
 }
 
+.fbox-wrapper .h3-solutions {
+  color: #0087eb;
+}
+
 .fbox-title span {
   float: left;
   line-height: 1 !important;
@@ -6004,6 +6054,7 @@ span.sm-info {
 
 .fbox-wrapper p {
   margin-bottom: 0;
+  line-height: 25px;
 }
 
 .fbox-5 h5 {
