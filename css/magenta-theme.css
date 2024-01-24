@@ -1143,10 +1143,6 @@ h2 > .business {
   color: #0e0e0e;
 }
 
-h2 > .web3-project {
-  color: #7f7f7f;
-}
-
 .font--jakarta h1,
 .font--jakarta h2,
 .font--jakarta h3,
@@ -3305,6 +3301,10 @@ p.video-txt-sm {
 
 .color--gray-500 {
   color: #707070 !important;
+}
+
+.color--gray-600 {
+  color: #7f7f7f !important;
 }
 
 .color--gray-400 {
