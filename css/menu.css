@@ -827,8 +827,8 @@
 
   .wsmenu > .wsmenu-list {
     height: auto;
-    min-height: 100%;
-    width: 350px;
+    min-height: 90%;
+    width: 100%;
     background: #fff;
     padding-bottom: 0;
     margin-right: -350px;
@@ -1225,9 +1225,6 @@
   }
 
   .wsactive .wsmobileheader {
-    margin-right: 240px;
-    margin-right: 300px;
-    margin-right: 350px;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
@@ -1376,6 +1373,7 @@
     -ms-transition: opacity 1.5s ease-in-out;
     -o-transition: opacity 1.5s ease-in-out;
     z-index: 8888 !important;
+    width: 100%;
   }
 
   .wsmenucontainer {
