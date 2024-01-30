@@ -93,7 +93,14 @@
 							<!-- HEADER BLACK LOGO -->
 							<div class="desktoplogo">
 								<a href="index.html" class="logo-black"><img src="images/v2/logo.jpg" alt="logo" /></a>
-								<span class="nametitle">DEEPEYES</span>
+							</div>
+
+							<!-- MOBILE HEADER -->
+							<div class="wsmobileheader clearfix">
+								<span class="smllogo"><img src="images/v2/logo.jpg" alt="mobile-logo">
+								</span>
+
+								<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
 							</div>
 
 							<!-- MAIN MENU -->
@@ -182,7 +189,7 @@
 				<!-- SECTION TITLE -->
 				<div class="row justify-content-center">
 					<div class="col-md-10 col-lg-9">
-						<div class="section-title mb-40">
+						<div class="section-title mb-40 text-center">
 							<!-- Title -->
 							<h2 class="s-32">
 								<span class="color--black-400 w-200">Who can leverage </span><span
@@ -190,8 +197,8 @@
 							</h2>
 
 							<!-- Text -->
-							<p class="s-16 mt-40 color--gray-300">
-								Unlock more actionable insights from data. Let us know <br />
+							<p id="description-features2" class="s-16 mt-40 color--gray-300 px-130 description">
+								Unlock more actionable insights from data. Let us know
 								which metrics movements that matter to you.
 							</p>
 						</div>
@@ -199,21 +206,22 @@
 				</div>
 
 				<!-- FEATURES-2 WRAPPER -->
-				<div class="fbox-wrapper text-center">
-					<div class="row row-cols-3 px-130">
+				<div class="fbox-wrapper text-center text-nowrap">
+					<div class="overflow-auto">
 						<!-- FEATURE BOX #1 -->
-						<div class="col">
-							<div class="fbox-2 fb-1 wow r-22 pt-3 bg--white-100 h-175 fadeInUp mr-7">
+						<div class="d-inline-block align-top">
+							<div class="fbox-2 fb-1 wow r-22 px-24 pt-3 bg--white-100 h-175 fadeInUp">
 								<!-- Image -->
 								<div class="fbox-img">
-									<img class="img-fluid" src="images/v2/traders.jpg" alt="feature-image" />
+									<img id="img-da"class="img-fluid" src="images/v2/traders.jpg" alt="feature-image" />
 								</div>
 
 								<!-- Text -->
 								<div class="fbox-txt mt-25">
 									<h6 class="s-17 w-500">Traders</h6>
-									<p class="s-15 color--gray-400">
-										Find alpha signals & trends <br />
+									<hr class="divider-traders" />
+									<p class="s-15 color--gray-400 text-wrap">
+										Find alpha signals & trends
 										from hundered of data points
 									</p>
 								</div>
@@ -222,18 +230,19 @@
 						<!-- END FEATURE BOX #1 -->
 
 						<!-- FEATURE BOX #2 -->
-						<div class="col">
-							<div class="fbox-2 fb-2 wow r-22 pt-3 bg--white-100 h-175 fadeInUp ml-7 mr-7">
+						<div class="d-inline-block align-top ml-40">
+							<div class="fbox-2 fb-2 wow r-22 px-24 pt-3 bg--white-100 h-175 fadeInUp">
 								<!-- Image -->
 								<div class="fbox-img">
-									<img class="img-fluid" src="images/v2/investors.jpg" alt="feature-image" />
+									<img id="img-da" class="img-fluid" src="images/v2/investors.jpg" alt="feature-image" />
 								</div>
 
 								<!-- Text -->
 								<div class="fbox-txt mt-25">
 									<h6 class="s-17 w-500">Investors</h6>
-									<p class="s-15 color--gray-400">
-										Discover potential projects & <br />
+									<hr class="divider-traders" />
+									<p class="s-15 color--gray-400 text-wrap">
+										Discover potential projects &
 										track their perfromance
 									</p>
 								</div>
@@ -242,19 +251,20 @@
 						<!-- END FEATURE BOX #2 -->
 
 						<!-- FEATURE BOX #3 -->
-						<div class="col">
-							<div class="fbox-2 fb-3 wow r-22 pt-3 bg--white-100 fadeInUp ml-7">
+						<div class="d-inline-block align-top ml-40">
+							<div class="fbox-2 fb-3 wow r-22 px-24 pt-3 bg--white-100 h-175 fadeInUp">
 								<!-- Image -->
 								<div class="fbox-img">
-									<img class="img-fluid" src="images/v2/builders.jpg" alt="feature-image" />
+									<img id="img-da" class="img-fluid" src="images/v2/builders.jpg" alt="feature-image" />
 								</div>
 
 								<!-- Text -->
 								<div class="fbox-txt mt-25">
 									<h6 class="s-17 w-500">Builders</h6>
-									<p class="s-15 color--gray-400">
-										Get actionable insights of <br />
-										product & customers for <br />
+									<hr class="divider-traders" />
+									<p class="s-15 color--gray-400 text-wrap">
+										Get actionable insights of
+										product & customers for
 										optimization
 									</p>
 								</div>
@@ -270,7 +280,7 @@
 						<hr class="solutions" />
 					</div>
 
-					<div class="row row-cols-1 row-cols-md-5 mt-60">
+					<div id="feature-box" class="row row-cols-md-5 row-cols-2 mt-60 d-flex justify-content-center">
 						<!-- FEATURE BOX #1 -->
 						<div class="col">
 							<div class="fb-1 wow r-22 pt-3 h-175 fadeInUp mr-7">
@@ -280,7 +290,7 @@
 								</div>
 
 								<!-- Text -->
-								<p class="s-17 mt-25 color--black-300">
+								<p class="s-17 mt-25 color--black-300 description">
 									Blockchain Analytics
 								</p>
 							</div>
@@ -296,7 +306,7 @@
 								</div>
 
 								<!-- Text -->
-								<p class="s-17 mt-25 color--black-300">Gamefi Analytics</p>
+								<p class="s-17 mt-25 color--black-300 description">Gamefi Analytics</p>
 							</div>
 						</div>
 						<!-- END FEATURE BOX #2 -->
@@ -310,7 +320,7 @@
 								</div>
 
 								<!-- Text -->
-								<p class="s-17 mt-25 color--black-300">Meme Coin Analytics</p>
+								<p class="s-17 mt-25 color--black-300 description">Meme Coin Analytics</p>
 							</div>
 						</div>
 						<!-- END FEATURE BOX #3 -->
@@ -324,7 +334,7 @@
 								</div>
 
 								<!-- Text -->
-								<p class="s-17 mt-25 color--black-300">Wallet Analytics</p>
+								<p class="s-17 mt-25 color--black-300 description">Wallet Analytics</p>
 							</div>
 						</div>
 						<!-- END FEATURE BOX #4 -->
@@ -338,7 +348,7 @@
 								</div>
 
 								<!-- Text -->
-								<p class="s-17 mt-25 color--black-300">DApp Analytics</p>
+								<p class="s-17 mt-25 color--black-300 description">DApp Analytics</p>
 							</div>
 						</div>
 						<!-- END FEATURE BOX #5 -->
@@ -351,684 +361,684 @@
 		</section>
 		<!-- END FEATURES-2 -->
 
-		<!-- TEXT CONTENT
-			============================================= -->
-		<section id="features-3" class="bg--02 py-90 ct-03 content-section division">
-			<div class="container">
-				<div>
-					<!-- SECTION TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-md-10 col-lg-9">
-							<div class="section-title mb-40">
-								<!-- Title -->
-								<h2 class="s-32">Main Products</h2>
+	</div> <!-- END FEATURES-2 WRAPPER -->
 
-								<!-- Text -->
-								<p class="s-16 mt-40 color--blue-600">
-									We help businesses take advantage of data to better
-									understand <br />
-									their customers, users and holders
-								</p>
-							</div>
+
+	</div> <!-- End container -->
+	</section> <!-- END FEATURES-2 -->
+
+
+	<section id="features-3" class="bg--02 py-90 ct-03 content-section division ">
+		<div class="container">
+			<div>
+				<!-- SECTION TITLE -->
+				<div class="row justify-content-center">
+					<div class="col-md-10 col-lg-9">
+						<div class="section-title mb-40">
+							<!-- Title -->
+							<h2 class="s-32">Main Products</h2>
+
+							<!-- Text -->
+							<p class="s-16 mt-40 color--blue-600">
+								We help businesses take advantage of data to better
+								understand <br />
+								their customers, users and holders
+							</p>
 						</div>
 					</div>
-
-					<div class="row d-flex align-items-center">
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-6 col-lg-7">
-							<div class="img-block left-column wow fadeInRight">
-								<img class="img-fluid" src="images/v2/main-product.jpg" alt="content-image" />
-							</div>
-						</div>
-
-						<!-- TEXT BLOCK -->
-						<div class="col-md-6 col-lg-5">
-							<div class="txt-block right-column wow fadeInLeft">
-								<!-- Title -->
-								<h2 class="s-32 w-600">Market Intelligence</h2>
-
-								<!-- List -->
-								<p>
-									Access to onchain data to discover new and trending projects
-									and find alpha signals.
-								</p>
-
-								<div class="row d-flex mt-25">
-									<div class="col-md-6 col-lg-6">
-										<div class="d-flex align-items-center">
-											<img src="images/v2/icon.jpg" alt="Project ranking" />
-											<span class="ml-10 s-14 color--gray-500">Project ranking</span>
-										</div>
-
-										<div class="d-flex align-items-center mt-20">
-											<img src="images/v2/icon.jpg" alt="Market benchmark" />
-											<span class="ml-10 s-14 color--gray-500">Market benchmark</span>
-										</div>
-									</div>
-
-									<div class="col-md-6 col-lg-6">
-										<div class="d-flex align-items-center">
-											<img src="images/v2/icon.jpg" alt="Metrics movements" />
-											<span class="ml-10 s-14 color--gray-500">Metrics movements</span>
-										</div>
-
-										<div class="d-flex align-items-center mt-20">
-											<img src="images/v2/icon.jpg" alt="Personalized signals" />
-											<span class="ml-10 s-14 color--gray-500">Personalized signals</span>
-										</div>
-									</div>
-								</div>
-								<!-- Button -->
-								<a class="btn btn-contact-theme hover--tra-black">Explore Insights</a>
-							</div>
-						</div>
-						<!-- END TEXT BLOCK -->
-					</div>
-					<!-- End row -->
 				</div>
 
 				<div class="row d-flex align-items-center">
+					<!-- IMAGE BLOCK -->
+					<div class="col-md-6 col-lg-7">
+						<div class="img-block left-column wow fadeInRight">
+							<img class="img-fluid" src="images/v2/main-product.jpg" alt="content-image" />
+						</div>
+					</div>
+
 					<!-- TEXT BLOCK -->
 					<div class="col-md-6 col-lg-5">
 						<div class="txt-block right-column wow fadeInLeft">
 							<!-- Title -->
-							<h2 class="s-32 w-600">Business Intelligence</h2>
+							<h2 class="s-32 w-600">Market Intelligence</h2>
 
 							<!-- List -->
 							<p>
-								Combine onchain with your private data (offchain) to gain more
-								insights such as project's performance and customer segments
-								for improvements.
+								Access to onchain data to discover new and trending projects
+								and find alpha signals.
 							</p>
 
-							<div class="row d-flex mt-25">
-								<div class="col-md-6 col-lg-6">
+							<div class="row d-flex mt-25 ">
+								<div class="col-6">
 									<div class="d-flex align-items-center">
-										<img src="images/v2/icon.jpg" alt="Ready-to-use dashboard" />
-										<span class="ml-10 s-14 color--gray-500">Ready-to-use dashboard</span>
+										<img id="check" src="images/v2/icon.jpg" alt="Project ranking" />
+										<span class="ml-10 s-14 color--gray-500">Project ranking</span>
 									</div>
 
 									<div class="d-flex align-items-center mt-20">
-										<img src="images/v2/icon.jpg" alt="Offchain combination" />
-										<span class="ml-10 s-14 color--gray-500">Offchain combination</span>
+										<img id="check" src="images/v2/icon.jpg" alt="Market benchmark" />
+										<span class="ml-10 s-14 color--gray-500">Market benchmark</span>
 									</div>
 								</div>
 
-								<div class="col-md-6 col-lg-6">
+								<div class="col-6">
 									<div class="d-flex align-items-center">
-										<img src="images/v2/icon.jpg" alt="Customize with SQL query" />
-										<span class="ml-5 s-14 color--gray-500">Customize with SQL query</span>
+										<img id="check" src="images/v2/icon.jpg" alt="Metrics movements" />
+										<span class="ml-10 s-14 color--gray-500">Metrics movements</span>
 									</div>
 
 									<div class="d-flex align-items-center mt-20">
-										<img src="images/v2/icon.jpg" alt="Data Warehouse API" />
-										<span class="ml-5 s-14 color--gray-500">Data Warehouse API</span>
+										<img id="check" src="images/v2/icon.jpg" alt="Personalized signals" />
+										<span class="ml-10 s-14 color--gray-500">Personalized signals</span>
 									</div>
 								</div>
 							</div>
 							<!-- Button -->
-							<a class="btn btn-view-demo hover--tra-black ml-0">View demo</a>
+							<a id="explore-insights"class="btn btn-contact-theme hover--tra-black mb-10">Explore Insights</a>
 						</div>
 					</div>
 					<!-- END TEXT BLOCK -->
+				</div>
+				<!-- End row -->
+			</div>
 
-					<!-- IMAGE BLOCK -->
-					<div class="col-md-6 col-lg-7">
-						<div class="img-block wow fadeInRight">
-							<img class="img-fluid" src="images/v2/business-intelligence.jpg" alt="content-image" />
+			<div class="row d-flex align-items-center">
+				<!-- TEXT BLOCK -->
+				<div class="col-md-6 col-lg-5">
+					<div class="txt-block right-column wow fadeInLeft">
+						<!-- Title -->
+						<h2 class="s-32 w-600">Business Intelligence</h2>
+
+						<!-- List -->
+						<p>
+							Combine onchain with your private data (offchain) to gain more
+							insights such as project's performance and customer segments
+							for improvements.
+						</p>
+
+						<div class="row d-flex mt-25">
+							<div class="col-6">
+								<div class="d-flex align-items-center">
+									<img id="check" src="images/v2/icon.jpg" alt="Ready-to-use dashboard" />
+									<span class="ml-10 s-14 color--gray-500">Ready-to-use dashboard</span>
+								</div>
+
+								<div class="d-flex align-items-center mt-20">
+									<img id="check" src="images/v2/icon.jpg" alt="Offchain combination" />
+									<span class="ml-10 s-14 color--gray-500">Offchain combination</span>
+								</div>
+							</div>
+
+							<div class="col-6">
+								<div class="d-flex align-items-center">
+									<img id="check" src="images/v2/icon.jpg" alt="Customize with SQL query" />
+									<span class="ml-5 s-14 color--gray-500">Customize with SQL query</span>
+								</div>
+
+								<div class="d-flex align-items-center mt-20">
+									<img id="check" src="images/v2/icon.jpg" alt="Data Warehouse API" />
+									<span class="ml-5 s-14 color--gray-500">Data Warehouse API</span>
+								</div>
+							</div>
+						</div>
+						<!-- Button -->
+						<a class="btn btn-view-demo hover--tra-black ml-0">View demo</a>
+					</div>
+				</div>
+				<!-- END TEXT BLOCK -->
+
+				<!-- IMAGE BLOCK -->
+				<div class="col-md-6 col-lg-7">
+					<div class="img-block wow fadeInRight">
+						<img class="img-fluid" src="images/v2/business-intelligence.jpg" alt="content-image" />
+					</div>
+				</div>
+			</div>
+			<!-- End row -->
+		</div>
+		<!-- End container -->
+	</section>
+	<!-- END TEXT CONTENT -->
+
+	<!-- FEATURES-7
+			============================================= -->
+	<section id="features-7" class="pt-80 pb-100 features-section division">
+		<div class="container">
+			<!-- SECTION TITLE -->
+			<div class="row justify-content-center">
+				<div class="col-md-10 col-lg-9">
+					<div class="section-title mb-50">
+						<!-- Title -->
+						<h2 class="s-32 w-600 color--black-400">Use cases</h2>
+					</div>
+				</div>
+			</div>
+
+			<!-- FEATURES-7 WRAPPER -->
+
+			<div class="fbox-wrapper text-center">
+				<div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 justify-content-center">
+					<!-- FEATURE BOX #1 -->
+					<div class="col-lg-4 ">
+						<div class="fbox-7 fb-1 r-16 wow bg--white-100 fadeInUp col-lg-11">
+							<!-- Text -->
+							<div class="fbox-txt">
+								<img id="img-uc" src="images/v2/wallet-acquisition.jpg" alt="Wallet Acquisition" />
+								<p class="p-sm mt-40">Wallet Acquisition</p>
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #1 -->
+
+					<!-- FEATURE BOX #1 -->
+					<div class="col-lg-4">
+						<div class="fbox-7 fb-2 r-16 wow bg--white-100 fadeInUp col-lg-11">
+							<!-- Text -->
+							<div id="cohort" class="fbox-txt">
+								<img id="img-uc" src="images/v2/cohort-retention.jpg" alt="Cohort Retention" />
+								<p class="p-sm mt-30">Cohort Retention</p>
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #1 -->
+
+					<!-- FEATURE BOX #1 -->
+					<div class="col-lg-4">
+						<div class="fbox-7 fb-3 r-16 wow bg--white-100 fadeInUp col-lg-11">
+							<!-- Text -->
+							<div class="fbox-txt">
+								<img id="img-uc" src="images/v2/stable-coin-movement.jpg" alt="Stable Coin Movement" />
+								<p class="p-sm mt-40">Stable Coin Movement</p>
+							</div>
+						</div>
+					</div>
+
+					<div id="uc" class="col-lg-4">
+						<div class="fbox-7 fb-1 r-16 wow bg--white-100 fadeInUp col-lg-11 mt-30">
+							<!-- Text -->
+							<div class="fbox-txt">
+								<img id="img-uc" src="images/v2/holders-p&l.jpg" alt="Holders P&L" />
+								<p class="p-sm mt-40">Holders P&L</p>
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #1 -->
+
+					<!-- FEATURE BOX #1 -->
+					<div id="uc" class="col-lg-4">
+						<div  class="fbox-7 fb-2 r-16 wow bg--white-100 fadeInUp col-lg-11 pt-70 mt-30">
+							<!-- Text -->
+							<div id="competitor" class="fbox-txt">
+								<img id="img-uc" src="images/v2/competitor-performance.jpg" alt="Competitor's performance" />
+								<p class="p-sm mt-80">Competitor's performance</p>
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #1 -->
+
+					<!-- FEATURE BOX #1 -->
+					<div id="uc" class="col-lg-4">
+						<div class="fbox-7 fb-3 r-16 wow bg--white-100 fadeInUp col-lg-11 pt-20 mt-30">
+							<!-- Text -->
+							<div  id="wallet-activity" class="fbox-txt">
+								<img id="img-uc" src="images/v2/wallet-activity-tracking.jpg" alt="Wallet Activity Tracking" />
+								<p class="p-sm mt-20">Wallet Activity Tracking</p>
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #1 -->
+				</div>
+				<!-- End row -->
+			</div>
+			<!-- END FEATURES-7 WRAPPER -->
+		</div>
+		<!-- End container -->
+	</section>
+	<!-- END FEATURES-7 -->
+
+	<!-- FEATURES-8
+			============================================= -->
+	<section id="features-8" class="pt-80 pb-100 features-section division ">
+		<div class="container">
+			<!-- SECTION TITLE -->
+			<div class="row justify-content-center">
+				<div class="col-md-10 col-lg-9">
+					<div class="section-title">
+						<!-- Title -->
+						<h2 class="s-32 w-600 color--black-400">
+							Supported blockchain
+						</h2>
+					</div>
+				</div>
+			</div>
+
+			<!-- FEATURES-7 WRAPPER -->
+			<div class="fbox-wrapper text-center">
+				<div class="row row-cols-8 row-cols-md-8 row-cols-lg-8 mt-50 justify-content-center">
+					<!-- FEATURE BOX #1 -->
+					<div class="col">
+						<div class="fb-1 wow r-22 pt-3 h-175 fadeInUp mr-7">
+							<!-- Image -->
+							<div class="fbox-img w-160">
+								<img id="chain" class="r-full" src="images/v2/blockchain1.jpg" alt="feature-image" />
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #1 -->
+
+					<!-- FEATURE BOX #2 -->
+					<div class="col">
+						<div class="fb-2 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
+							<!-- Image -->
+							<div class="fbox-img w-160">
+								<img id="chain" class="r-full" src="images/v2/blockchain2.jpg" alt="feature-image" />
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #2 -->
+
+					<!-- FEATURE BOX #3 -->
+					<div class="col">
+						<div class="fb-3 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
+							<!-- Image -->
+							<div class="fbox-img w-160">
+								<img id="chain" class="r-full" src="images/v2/blockchain3.jpg" alt="feature-image" />
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #3 -->
+
+					<!-- FEATURE BOX #4 -->
+					<div class="col">
+						<div class="fb-4 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
+							<!-- Image -->
+							<div class="fbox-img w-160">
+								<img id="chain" class="r-full" src="images/v2/blockchain4.jpg" alt="feature-image" />
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #4 -->
+
+					<!-- FEATURE BOX #5 -->
+					<div class="col">
+						<div class="fb-5 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
+							<!-- Image -->
+							<div class="fbox-img w-160">
+								<img id="chain" class="r-full" src="images/v2/blockchain5.jpg" alt="feature-image" />
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #5 -->
+
+					<!-- FEATURE BOX #6 -->
+					<div class="col">
+						<div class="fb-5 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
+							<!-- Image -->
+							<div class="fbox-img w-160">
+								<img id="chain" class="r-full" src="images/v2/blockchain6.jpg" alt="feature-image" />
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #6 -->
+
+					<!-- FEATURE BOX #7 -->
+					<div class="col">
+						<div class="fb-5 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
+							<!-- Image -->
+							<div class="fbox-img w-160">
+								<img id="chain" class="r-full" src="images/v2/blockchain7.jpg" alt="feature-image" />
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #7 -->
+
+					<!-- FEATURE BOX #8 -->
+					<div class="col">
+						<div class="fb-5 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
+							<!-- Image -->
+							<div class="fbox-img w-160">
+								<img id="chain" class="r-full" src="images/v2/blockchain8.jpg" alt="feature-image" />
+							</div>
+						</div>
+					</div>
+					<!-- END FEATURE BOX #8 -->
+				</div>
+				<!-- End row -->
+			</div>
+			<!-- END FEATURES-8 WRAPPER -->
+
+			<div class="s-20 d-flex justify-content-center color--gray-600 mt-30">
+				More are coming...
+			</div>
+		</div>
+		<!-- End container -->
+	</section>
+	<!-- END FEATURES-8 -->
+
+	<!-- FEATURES-9
+			============================================= -->
+	<section id="features-9" class="pt-80 pb-100 features-section division">
+		<div class="container">
+			<!-- SECTION TITLE -->
+			<div>
+				<!-- Title -->
+				<h2 class="s-22 w-500 color--blue-600">TESTIMONIALS</h2>
+				<h2 class="s-24 w-600 color--black-400 mt-25">
+					Get Updates From DeepEyes
+				</h2>
+				<h2 class="s-20 w-300 color--black-400 mt-20">And Our Customers</h2>
+			</div>
+
+			<div class="d-flex align-items-center gap-4 arrow-pre-next">
+				<div class="prev" onclick="plusSlides(-1)"><img src="images/v2/round-less-than.jpg" alt=""></div>
+				<div class="next" onclick="plusSlides(1)"><img src="images/v2/round-larger-than.jpg" alt=""></div>
+			</div>
+
+			<div class="mySlides">
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-40">
+					<div class="d-inline-block">
+						<blockquote class="twitter-tweet">
+							<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
+									href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
+								cooking
+								the most is <a
+									href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
+								We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
+								got
+								the
+								huge influx of new users right after the statement of being laser-focused on Beam
+								from
+								ecosystem from <a
+									href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
+								<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
+							</p>&mdash; DeepEyes
+							|
+							Web3
+							Data Analytics 🔺 (@DeepEyes_io) <a
+								href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
+								15, 2024</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+					<div class="d-inline-block">
+						<blockquote class="twitter-tweet">
+							<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
+									href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
+								cooking
+								the most is <a
+									href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
+								We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
+								got
+								the
+								huge influx of new users right after the statement of being laser-focused on Beam
+								from
+								ecosystem from <a
+									href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
+								<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
+							</p>&mdash; DeepEyes
+							|
+							Web3
+							Data Analytics 🔺 (@DeepEyes_io) <a
+								href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
+								15, 2024</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+					<div class="d-inline-block">
+						<blockquote class="twitter-tweet">
+							<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
+									href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
+								cooking
+								the most is <a
+									href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
+								We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
+								got
+								the
+								huge influx of new users right after the statement of being laser-focused on Beam
+								from
+								ecosystem from <a
+									href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
+								<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
+							</p>&mdash; DeepEyes
+							|
+							Web3
+							Data Analytics 🔺 (@DeepEyes_io) <a
+								href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
+								15, 2024</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+				</div>
+			</div>
+
+			<div class="mySlides">
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-40">
+					<div class="d-inline-block">
+						<blockquote class="twitter-tweet">
+							<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
+									href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
+								cooking
+								the most is <a
+									href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
+								We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
+								got
+								the
+								huge influx of new users right after the statement of being laser-focused on Beam
+								from
+								ecosystem from <a
+									href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
+								<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
+							</p>&mdash; DeepEyes
+							|
+							Web3
+							Data Analytics 🔺 (@DeepEyes_io) <a
+								href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
+								15, 2024</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+					<div class="d-inline-block">
+						<blockquote class="twitter-tweet">
+							<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
+									href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
+								cooking
+								the most is <a
+									href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
+								We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
+								got
+								the
+								huge influx of new users right after the statement of being laser-focused on Beam
+								from
+								ecosystem from <a
+									href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
+								<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
+							</p>&mdash; DeepEyes
+							|
+							Web3
+							Data Analytics 🔺 (@DeepEyes_io) <a
+								href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
+								15, 2024</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+					<div class="d-inline-block">
+						<blockquote class="twitter-tweet">
+							<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
+									href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
+								cooking
+								the most is <a
+									href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
+								We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
+								got
+								the
+								huge influx of new users right after the statement of being laser-focused on Beam
+								from
+								ecosystem from <a
+									href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
+								<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
+							</p>&mdash; DeepEyes
+							|
+							Web3
+							Data Analytics 🔺 (@DeepEyes_io) <a
+								href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
+								15, 2024</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+				</div>
+			</div>
+
+			<div class="mySlides">
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-40">
+					<div class="d-inline-block">
+						<blockquote class="twitter-tweet">
+							<p lang="en" dir="ltr">In his own words: Donald Trump is responsible for ending Roe v.
+								Wade.<br><br>And if you vote for him, he’ll go even further. <a
+									href="https://t.co/zeyCrZ0yGb">pic.twitter.com/zeyCrZ0yGb</a></p>&mdash; Joe
+							Biden (@JoeBiden) <a
+								href="https://twitter.com/JoeBiden/status/1749576449571324189?ref_src=twsrc%5Etfw">January
+								22, 2024</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+					<div class="d-inline-block">
+						<blockquote class="twitter-tweet">
+							<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
+									href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
+								cooking
+								the most is <a
+									href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
+								We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
+								got
+								the
+								huge influx of new users right after the statement of being laser-focused on Beam
+								from
+								ecosystem from <a
+									href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
+								<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
+							</p>&mdash; DeepEyes
+							|
+							Web3
+							Data Analytics 🔺 (@DeepEyes_io) <a
+								href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
+								15, 2024</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+					<div class="d-inline-block">
+						<blockquote class="twitter-tweet">
+							<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
+									href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
+								cooking
+								the most is <a
+									href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
+								We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
+								got
+								the
+								huge influx of new users right after the statement of being laser-focused on Beam
+								from
+								ecosystem from <a
+									href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
+								<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
+							</p>&mdash; DeepEyes
+							|
+							Web3
+							Data Analytics 🔺 (@DeepEyes_io) <a
+								href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
+								15, 2024</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+				</div>
+			</div>
+
+			<div class="d-flex justify-content-center mt-30">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+			<!-- FEATURES-7 WRAPPER -->
+			<div class="fbox-wrapper text-center">
+				<img id="nft" class="" src="images/v2/testimonials.jpg" alt="feature-image" />
+				<!-- End row -->
+			</div>
+			<!-- END FEATURES-8 WRAPPER -->
+		</div>
+		<!-- End container -->
+	</section>
+	<!-- END FEATURES-9 -->
+
+	<!-- FOOTER-3
+			============================================= -->
+	<footer id="footer" class="pt-100 footer">
+		<div class="container-footer">
+			<!-- BOTTOM FOOTER -->
+			<div class="bottom-footer">
+				<div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 d-flex">
+					<div class="col-lg-3">
+						<div class="d-flex align-items-center">
+							<a href="#">
+								<img id="logo" src="images/v2/logo-black.jpg" alt="logo" />
+							</a>
+						</div>
+						<p id="f_caption" class="color--white mt-20 s-14">
+							We are not here to sell you <br />
+							products, we sell value <br />
+							through our expertise.
+						</p>
+						<!-- <ul class="bottom-footer-socials ico-20">
+                  <li>
+                    <a href="#"><span class="flaticon-facebook"></span></a>
+                  </li>
+                </ul> -->
+						<div>
+							<img id="social-network" src="images/v2/social-network.jpg" alt="social network" />
+						</div>
+					</div>
+
+					<div class="col-lg-5">
+						<div class="d-flex align-items-center mt-40 s-18 color--white">
+							Subscribe to get latest updates
+						</div>
+						<div class="email-address">
+							<input type="email" placeholder="Your Email address" onclick="subcribeEmail()" />
+							<button type="button">Subscribe</button>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-xl-3 color--white ">
+						<div class ="row">
+							<p class="s-15 col-2 ">Address:</p>
+							<p class="s-13 col-9">38 opebi Road, Ikeja, Lagos State, Nigeia.</p>
+						</div>
+
+						<div class ="row">
+							<p class="s-15 col-2">Phone:</p>
+							<p class="s-13 col-9">+2349022396389</p>
+						</div>
+
+						<div class ="row">
+							<p class="s-15 col-2">Email:</p>
+							<p class="s-13 col-9">contact@contentionary.com</p>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-xl-1 color--white">
+						<div>
+							<h6 class="s-15">About us:</h6>
+							<p class="s-13">Our Customers</p>
+							<p class="s-13">+2349022396389</p>
+							<p class="s-13">contact@contentionary.com</p>
 						</div>
 					</div>
 				</div>
 				<!-- End row -->
 			</div>
-			<!-- End container -->
-		</section>
-		<!-- END TEXT CONTENT -->
-
-		<!-- FEATURES-7
-			============================================= -->
-		<section id="features-7" class="pt-80 pb-100 features-section division">
-			<div class="container">
-				<!-- SECTION TITLE -->
-				<div class="row justify-content-center">
-					<div class="col-md-10 col-lg-9">
-						<div class="section-title mb-50">
-							<!-- Title -->
-							<h2 class="s-32 w-600 color--black-400">Use cases</h2>
-						</div>
-					</div>
-				</div>
-
-				<!-- FEATURES-7 WRAPPER -->
-				<div class="fbox-wrapper text-center">
-					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
-						<!-- FEATURE BOX #1 -->
-						<div class="col-lg-4">
-							<div class="fbox-7 fb-1 r-16 wow bg--white-100 fadeInUp col-lg-11">
-								<!-- Text -->
-								<div class="fbox-txt">
-									<img src="images/v2/wallet-acquisition.jpg" alt="Wallet Acquisition" />
-									<p class="p-sm mt-40">Wallet Acquisition</p>
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #1 -->
-
-						<!-- FEATURE BOX #1 -->
-						<div class="col-lg-4">
-							<div class="fbox-7 fb-2 r-16 wow bg--white-100 fadeInUp col-lg-11">
-								<!-- Text -->
-								<div class="fbox-txt">
-									<img src="images/v2/cohort-retention.jpg" alt="Cohort Retention" />
-									<p class="p-sm mt-30">Cohort Retention</p>
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #1 -->
-
-						<!-- FEATURE BOX #1 -->
-						<div class="col-lg-4">
-							<div class="fbox-7 fb-3 r-16 wow bg--white-100 fadeInUp col-lg-11">
-								<!-- Text -->
-								<div class="fbox-txt">
-									<img src="images/v2/stable-coin-movement.jpg" alt="Stable Coin Movement" />
-									<p class="p-sm mt-40">Stable Coin Movement</p>
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #1 -->
-					</div>
-					<!-- End row -->
-
-					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center mt-40">
-						<!-- FEATURE BOX #1 -->
-						<div class="col-lg-4">
-							<div class="fbox-7 fb-1 r-16 wow bg--white-100 fadeInUp col-lg-11">
-								<!-- Text -->
-								<div class="fbox-txt">
-									<img src="images/v2/holders-p&l.jpg" alt="Holders P&L" />
-									<p class="p-sm mt-40">Holders P&L</p>
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #1 -->
-
-						<!-- FEATURE BOX #1 -->
-						<div class="col-lg-4">
-							<div class="fbox-7 fb-2 r-16 wow bg--white-100 fadeInUp col-lg-11 pt-70">
-								<!-- Text -->
-								<div class="fbox-txt">
-									<img src="images/v2/competitor-performance.jpg" alt="Competitor's performance" />
-									<p class="p-sm mt-80">Competitor's performance</p>
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #1 -->
-
-						<!-- FEATURE BOX #1 -->
-						<div class="col-lg-4">
-							<div class="fbox-7 fb-3 r-16 wow bg--white-100 fadeInUp col-lg-11 pt-20">
-								<!-- Text -->
-								<div class="fbox-txt">
-									<img src="images/v2/wallet-activity-tracking.jpg" alt="Wallet Activity Tracking" />
-									<p class="p-sm mt-20">Wallet Activity Tracking</p>
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #1 -->
-					</div>
-					<!-- End row -->
-				</div>
-				<!-- END FEATURES-7 WRAPPER -->
-			</div>
-			<!-- End container -->
-		</section>
-		<!-- END FEATURES-7 -->
-
-		<!-- FEATURES-8
-			============================================= -->
-		<section id="features-8" class="pt-80 pb-100 features-section division">
-			<div class="container">
-				<!-- SECTION TITLE -->
-				<div class="row justify-content-center">
-					<div class="col-md-10 col-lg-9">
-						<div class="section-title">
-							<!-- Title -->
-							<h2 class="s-32 w-600 color--black-400">
-								Supported blockchain
-							</h2>
-						</div>
-					</div>
-				</div>
-
-				<!-- FEATURES-7 WRAPPER -->
-				<div class="fbox-wrapper text-center">
-					<div class="row row-cols-1 row-cols-md-6 row-cols-lg-8 mt-50">
-						<!-- FEATURE BOX #1 -->
-						<div class="col">
-							<div class="fb-1 wow r-22 pt-3 h-175 fadeInUp mr-7">
-								<!-- Image -->
-								<div class="fbox-img w-160">
-									<img class="r-full" src="images/v2/blockchain1.jpg" alt="feature-image" />
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #1 -->
-
-						<!-- FEATURE BOX #2 -->
-						<div class="col">
-							<div class="fb-2 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
-								<!-- Image -->
-								<div class="fbox-img w-160">
-									<img class="r-full" src="images/v2/blockchain2.jpg" alt="feature-image" />
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #2 -->
-
-						<!-- FEATURE BOX #3 -->
-						<div class="col">
-							<div class="fb-3 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
-								<!-- Image -->
-								<div class="fbox-img w-160">
-									<img class="r-full" src="images/v2/blockchain3.jpg" alt="feature-image" />
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #3 -->
-
-						<!-- FEATURE BOX #4 -->
-						<div class="col">
-							<div class="fb-4 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
-								<!-- Image -->
-								<div class="fbox-img w-160">
-									<img class="r-full" src="images/v2/blockchain4.jpg" alt="feature-image" />
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #4 -->
-
-						<!-- FEATURE BOX #5 -->
-						<div class="col">
-							<div class="fb-5 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
-								<!-- Image -->
-								<div class="fbox-img w-160">
-									<img class="r-full" src="images/v2/blockchain5.jpg" alt="feature-image" />
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #5 -->
-
-						<!-- FEATURE BOX #6 -->
-						<div class="col">
-							<div class="fb-5 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
-								<!-- Image -->
-								<div class="fbox-img w-160">
-									<img class="r-full" src="images/v2/blockchain6.jpg" alt="feature-image" />
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #6 -->
-
-						<!-- FEATURE BOX #7 -->
-						<div class="col">
-							<div class="fb-5 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
-								<!-- Image -->
-								<div class="fbox-img w-160">
-									<img class="r-full" src="images/v2/blockchain7.jpg" alt="feature-image" />
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #7 -->
-
-						<!-- FEATURE BOX #8 -->
-						<div class="col">
-							<div class="fb-5 wow r-22 pt-3 h-175 fadeInUp ml-7 mr-7">
-								<!-- Image -->
-								<div class="fbox-img w-160">
-									<img class="r-full" src="images/v2/blockchain8.jpg" alt="feature-image" />
-								</div>
-							</div>
-						</div>
-						<!-- END FEATURE BOX #8 -->
-					</div>
-					<!-- End row -->
-				</div>
-				<!-- END FEATURES-8 WRAPPER -->
-
-				<div class="s-20 d-flex justify-content-center color--gray-600 mt-30">
-					More are coming...
-				</div>
-			</div>
-			<!-- End container -->
-		</section>
-		<!-- END FEATURES-8 -->
-
-		<!-- FEATURES-9
-			============================================= -->
-		<section id="features-9" class="pt-80 pb-100 features-section division">
-			<div class="container">
-				<!-- SECTION TITLE -->
-				<div>
-					<!-- Title -->
-					<h2 class="s-22 w-500 color--blue-600">TESTIMONIALS</h2>
-					<h2 class="s-24 w-600 color--black-400 mt-25">
-						Get Updates From DeepEyes
-					</h2>
-					<h2 class="s-20 w-300 color--black-400 mt-20">And Our Customers</h2>
-				</div>
-
-				<div class="d-flex align-items-center gap-4 arrow-pre-next">
-					<div class="prev" onclick="plusSlides(-1)"><img src="images/v2/round-less-than.jpg" alt=""></div>
-					<div class="next" onclick="plusSlides(1)"><img src="images/v2/round-larger-than.jpg" alt=""></div>
-				</div>
-
-				<div class="mySlides">
-					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex mt-40">
-						<div class="col">
-							<blockquote class="twitter-tweet">
-								<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
-										href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
-									cooking
-									the most is <a
-										href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
-									We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
-									got
-									the
-									huge influx of new users right after the statement of being laser-focused on Beam
-									from
-									ecosystem from <a
-										href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
-									<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
-								</p>&mdash; DeepEyes
-								|
-								Web3
-								Data Analytics 🔺 (@DeepEyes_io) <a
-									href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
-									15, 2024</a>
-							</blockquote>
-							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
-						<div class="col">
-							<blockquote class="twitter-tweet">
-								<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
-										href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
-									cooking
-									the most is <a
-										href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
-									We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
-									got
-									the
-									huge influx of new users right after the statement of being laser-focused on Beam
-									from
-									ecosystem from <a
-										href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
-									<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
-								</p>&mdash; DeepEyes
-								|
-								Web3
-								Data Analytics 🔺 (@DeepEyes_io) <a
-									href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
-									15, 2024</a>
-							</blockquote>
-							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
-						<div class="col">
-							<blockquote class="twitter-tweet">
-								<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
-										href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
-									cooking
-									the most is <a
-										href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
-									We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
-									got
-									the
-									huge influx of new users right after the statement of being laser-focused on Beam
-									from
-									ecosystem from <a
-										href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
-									<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
-								</p>&mdash; DeepEyes
-								|
-								Web3
-								Data Analytics 🔺 (@DeepEyes_io) <a
-									href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
-									15, 2024</a>
-							</blockquote>
-							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
-					</div>
-				</div>
-
-				<div class="mySlides">
-					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex mt-40">
-						<div class="col">
-							<blockquote class="twitter-tweet">
-								<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
-										href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
-									cooking
-									the most is <a
-										href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
-									We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
-									got
-									the
-									huge influx of new users right after the statement of being laser-focused on Beam
-									from
-									ecosystem from <a
-										href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
-									<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
-								</p>&mdash; DeepEyes
-								|
-								Web3
-								Data Analytics 🔺 (@DeepEyes_io) <a
-									href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
-									15, 2024</a>
-							</blockquote>
-							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
-						<div class="col">
-							<blockquote class="twitter-tweet">
-								<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
-										href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
-									cooking
-									the most is <a
-										href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
-									We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
-									got
-									the
-									huge influx of new users right after the statement of being laser-focused on Beam
-									from
-									ecosystem from <a
-										href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
-									<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
-								</p>&mdash; DeepEyes
-								|
-								Web3
-								Data Analytics 🔺 (@DeepEyes_io) <a
-									href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
-									15, 2024</a>
-							</blockquote>
-							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
-						<div class="col">
-							<blockquote class="twitter-tweet">
-								<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
-										href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
-									cooking
-									the most is <a
-										href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
-									We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
-									got
-									the
-									huge influx of new users right after the statement of being laser-focused on Beam
-									from
-									ecosystem from <a
-										href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
-									<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
-								</p>&mdash; DeepEyes
-								|
-								Web3
-								Data Analytics 🔺 (@DeepEyes_io) <a
-									href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
-									15, 2024</a>
-							</blockquote>
-							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
-					</div>
-				</div>
-
-				<div class="mySlides">
-					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex mt-40">
-						<div class="col">
-							<blockquote class="twitter-tweet">
-								<p lang="en" dir="ltr">In his own words: Donald Trump is responsible for ending Roe v.
-									Wade.<br><br>And if you vote for him, he’ll go even further. <a
-										href="https://t.co/zeyCrZ0yGb">pic.twitter.com/zeyCrZ0yGb</a></p>&mdash; Joe
-								Biden (@JoeBiden) <a
-									href="https://twitter.com/JoeBiden/status/1749576449571324189?ref_src=twsrc%5Etfw">January
-									22, 2024</a>
-							</blockquote>
-							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
-						<div class="col">
-							<blockquote class="twitter-tweet">
-								<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
-										href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
-									cooking
-									the most is <a
-										href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
-									We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
-									got
-									the
-									huge influx of new users right after the statement of being laser-focused on Beam
-									from
-									ecosystem from <a
-										href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
-									<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
-								</p>&mdash; DeepEyes
-								|
-								Web3
-								Data Analytics 🔺 (@DeepEyes_io) <a
-									href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
-									15, 2024</a>
-							</blockquote>
-							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
-						<div class="col">
-							<blockquote class="twitter-tweet">
-								<p lang="en" dir="ltr">0/ We&#39;re all eyes at <a
-										href="https://twitter.com/avax?ref_src=twsrc%5Etfw">@avax</a> gaming. The subnet
-									cooking
-									the most is <a
-										href="https://twitter.com/BuildOnBeam?ref_src=twsrc%5Etfw">@BuildOnBeam</a>.
-									We&#39;ve made a DeepEyes dashboard to track Beam &amp; first glance is the subnet
-									got
-									the
-									huge influx of new users right after the statement of being laser-focused on Beam
-									from
-									ecosystem from <a
-										href="https://twitter.com/MeritCircle_IO?ref_src=twsrc%5Etfw">@MeritCircle_IO</a>
-									<a href="https://t.co/l3LeucoRiL">pic.twitter.com/l3LeucoRiL</a>
-								</p>&mdash; DeepEyes
-								|
-								Web3
-								Data Analytics 🔺 (@DeepEyes_io) <a
-									href="https://twitter.com/DeepEyes_io/status/1746706759455252593?ref_src=twsrc%5Etfw">January
-									15, 2024</a>
-							</blockquote>
-							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
-					</div>
-				</div>
-
-				<div class="d-flex justify-content-center mt-30">
-					<span class="dot" onclick="currentSlide(1)"></span>
-					<span class="dot" onclick="currentSlide(2)"></span>
-					<span class="dot" onclick="currentSlide(3)"></span>
-				</div>
-				<!-- FEATURES-7 WRAPPER -->
-				<div class="fbox-wrapper text-center">
-					<img class="" src="images/v2/testimonials.jpg" alt="feature-image" />
-					<!-- End row -->
-				</div>
-				<!-- END FEATURES-8 WRAPPER -->
-			</div>
-			<!-- End container -->
-		</section>
-		<!-- END FEATURES-9 -->
-
-		<!-- FOOTER-3
-			============================================= -->
-		<footer id="footer" class="pt-100 footer">
-			<div class="container-footer">
-				<!-- BOTTOM FOOTER -->
-				<div class="bottom-footer">
-					<div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 d-flex">
-						<div class="col-lg-3">
-							<div class="d-flex align-items-center">
-								<a href="#">
-									<img src="images/v2/logo-black.jpg" alt="logo" />
-								</a>
-								<h2 class="s-26 color--gray-800 deep-eyes">DEEPEYES</h2>
-							</div>
-							<p class="color--white mt-20 s-14">
-								We are not here to sell you <br />
-								products, we sell value <br />
-								through our expertise.
-							</p>
-							<!-- <ul class="bottom-footer-socials ico-20">
-                  <li>
-                    <a href="#"><span class="flaticon-facebook"></span></a>
-                  </li>
-                </ul> -->
-							<div>
-								<img src="images/v2/social-network.jpg" alt="social network" />
-							</div>
-						</div>
-
-						<div class="col-lg-5">
-							<div class="d-flex align-items-center mt-40 s-18 color--white">
-								Subscribe to get latest updates
-							</div>
-							<div class="email-address">
-								<input type="email" placeholder="Your Email address" onclick="subcribeEmail()" />
-								<button type="button">Subscribe</button>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-xl-3 color--white">
-							<div>
-								<h6 class="s-15">Address:</h6>
-								<p class="s-13">38 opebi Road, Ikeja, Lagos State, Nigeia.</p>
-							</div>
-
-							<div>
-								<h6 class="s-15">Phone:</h6>
-								<p class="s-13">+2349022396389</p>
-							</div>
-
-							<div>
-								<h6 class="s-15">Email:</h6>
-								<p class="s-13">contact@contentionary.com</p>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-xl-1 color--white">
-							<div>
-								<h6 class="s-15">About us:</h6>
-								<p class="s-13">Our Customers</p>
-								<p class="s-13">+2349022396389</p>
-								<p class="s-13">contact@contentionary.com</p>
-							</div>
-						</div>
-					</div>
-					<!-- End row -->
-				</div>
-				<!-- END BOTTOM FOOTER -->
-			</div>
-			<!-- End container -->
-		</footer>
-		<!-- END FOOTER-3 -->
+			<!-- END BOTTOM FOOTER -->
+		</div>
+		<!-- End container -->
+	</footer>
+	<!-- END FOOTER-3 -->
 	</div>
 	<!-- END PAGE CONTENT -->
 
