@@ -827,7 +827,6 @@
 
   .wsmenu > .wsmenu-list {
     height: auto;
-    min-height: 90%;
     width: 100%;
     background: #fff;
     padding-bottom: 0;
@@ -1209,8 +1208,9 @@
   /* ================== Mobile Header CSS ================== */
 
   .wsmobileheader {
+    padding-left: 15px;
     width: 100%;
-    display: block;
+    display: flex;
     position: fixed;
     top: 0;
     right: 0;
@@ -1221,7 +1221,6 @@
     -o-transition: all 0.25s ease-in-out;
     -ms-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
   }
 
   .wsactive .wsmobileheader {
@@ -1275,9 +1274,6 @@
 
   /* Mobile Toggle Menu icon (X ICON) */
   .wsanimated-arrow {
-    position: absolute;
-    right: 0;
-    top: 0;
     z-index: 102;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -1289,7 +1285,6 @@
   .wsanimated-arrow {
     cursor: pointer;
     padding: 16px 35px 16px 0px;
-    margin: 7px 0 0 15px;
   }
 
   .wsanimated-arrow span,
@@ -1408,6 +1403,7 @@
     -ms-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
     margin-right: 0;
+    margin-top: 80px;
   }
 
   /* ================== Mobile Sub Menu Expander Arrows  ================== */

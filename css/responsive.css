@@ -8772,7 +8772,6 @@
 
   .wsmobileheader {
     height: 80px;
-    box-shadow: 0 0 2px rgba(50, 50, 50, 0.4);
   }
 
   .tra-menu .wsmobileheader,
@@ -8810,7 +8809,7 @@
   /* Mobile Header Burger Menu */
   .wsanimated-arrow {
     padding: 14px 22px 14px 0px;
-    margin: 24px 28px 0 0;
+    margin-top: 25px;
   }
 
   .wsanimated-arrow span:before {
@@ -11344,17 +11343,13 @@
     margin-right: -345px;
   }
 
-  .wsactive .wsmobileheader {
-    /* margin-right: 345px; */
-  }
-
   .overlapblackbg {
     width: calc(100% - 345px);
   }
 
   .wsanimated-arrow {
     padding: 14px 30px 14px 0px;
-    margin: 25px 18px 0 0;
+    /* margin: 25px 18px 0 0; */
   }
 
   /* Nav Link Info */
@@ -14248,7 +14243,7 @@
 
   .wsanimated-arrow {
     padding: 14px 30px 14px 0px;
-    margin: 25px 16px 0 0;
+    margin-top: 25px;
   }
 
   /* Nav Link Info */
@@ -17994,7 +17989,7 @@
 
   .wsanimated-arrow {
     padding: 14px 30px 14px 0px;
-    margin: 25px 16px 0 0;
+    margin-top: 25px;
   }
 
   /* Nav Link Info */
@@ -21780,7 +21775,7 @@
 
   .wsanimated-arrow {
     padding: 14px 30px 14px 0px;
-    margin: 25px 16px 0 0;
+    margin-top: 25px;
   }
 
   /* Nav Link Info */
