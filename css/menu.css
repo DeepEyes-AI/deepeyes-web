@@ -827,6 +827,7 @@
 
   .wsmenu > .wsmenu-list {
     height: auto;
+    min-height: 90%;
     width: 100%;
     background: #fff;
     padding-bottom: 0;
@@ -1229,6 +1230,7 @@
     -o-transition: all 0.25s ease-in-out;
     -ms-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
+
   }
 
   .wsmobileheader .smllogo {
