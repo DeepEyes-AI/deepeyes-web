@@ -13,7 +13,15 @@
 /* ------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------ */
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+  #business-intelligence
+  {
+    width: 500px;
+  }
+  #detail{
+    width: 150px;
+  }
+}
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------ */
@@ -24,6 +32,22 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
+  #features-3 .col-lg-5 {
+    width: 41.666667%;
+  }
+  .bottom-footer .row-cols-lg-3>* {
+    flex: 0 0 auto;
+    width: 38.3333333333%;
+  }
+  .col-6 .s-14{
+    font-size:0.74rem ;
+  }
+  .col-6 .s-13{
+    font-size:0.724rem ;
+  }
+  .login-button{
+    padding-right: 10%;
+  }
   #our-customers {
     width: 110px;
   }
@@ -3728,6 +3752,19 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
+  #detail .s-15{
+    font-size: 1.2rem;
+  }
+  #detail .s-13{
+    font-size: 0.8rem;
+  }
+  .row-cols-1>* {
+    flex: 0 0 auto;
+    width: 92%;
+}
+  #d-info{
+    padding-top: 25px;
+  }
   #features-3 {
     padding-bottom: 20px;
   }
@@ -13668,6 +13705,22 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
+  #detail .s-15{
+    font-size: 1rem;
+  }
+  #detail .s-13{
+    font-size: 0.7rem;
+  }
+  .row-cols-1>* {
+    flex: 0 0 auto;
+    width: 92%;
+}
+  #d-info{
+    padding-top: 25px;
+  }
+  #bi-d{
+    font-size: 10px;
+  }
   .footer {
     padding-left: 10px;
   }
@@ -17428,6 +17481,22 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
+  #detail .s-15{
+    font-size: 1rem;
+  }
+  #detail .s-13{
+    font-size: 0.7rem;
+  }
+  .row-cols-1>* {
+    flex: 0 0 auto;
+    width: 92%;
+}
+  #d-info{
+    padding-top: 25px;
+  }
+  #bi-d{
+    font-size: 10px;
+  }
   .footer {
     padding-left: 10px;
   }
@@ -21212,6 +21281,22 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 321px) and (max-width: 389.98px) {
+  #detail .s-15{
+    font-size: 1rem;
+  }
+  #detail .s-13{
+    font-size: 0.7rem;
+  }
+  .row-cols-1>* {
+    flex: 0 0 auto;
+    width: 92%;
+}
+  #d-info{
+    padding-top: 25px;
+  }
+  #bi-d{
+    font-size: 10px;
+  }
   .footer {
     padding-left: 10px;
   }

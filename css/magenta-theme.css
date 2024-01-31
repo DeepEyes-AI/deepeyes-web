@@ -13470,11 +13470,11 @@ body.theme--dark {
 }
 
 .loading--theme .loader {
-  border-color: transparent #c73e9b;
+  border-color: transparent #0F8CE9;
 }
 
 .loading--theme .loader::after {
-  border-color: transparent rgba(190, 108, 190, 0.15);
+  border-color: transparent rgba(0, 0, 255, 0.1);
 }
 
 .nav-theme .sm-info {
