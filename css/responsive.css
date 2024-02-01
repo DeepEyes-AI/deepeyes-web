@@ -32,6 +32,12 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
+  #d-info{
+    width: 40.33%;
+  }
+  #detail .s-15{
+    margin-bottom: 20px;
+  }
   #features-3 .col-lg-5 {
     width: 41.666667%;
   }
@@ -84,25 +90,12 @@
     height: 400px;
   }
 
-  #wallet-activity .mt-20 {
-    margin-top: 70px !important;
-  }
-
   #uc .pt-70 {
     padding-top: 50px !important;
   }
 
   #competitor .mt-80 {
-    margin-top: 40px !important;
-  }
-
-  #cohort .mt-30 {
-    margin-top: 40px !important;
-  }
-
-  #img-uc {
-    width: 264px;
-    height: 245px;
+    margin-top: 100px !important;
   }
 
   .hero-section {
@@ -200,6 +193,9 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
+  #d-info{
+    width: 50.33%;
+  }
   .col-lg-3 {
     width: 49%;
   }
@@ -3752,6 +3748,9 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
+  #features-9 .row{
+    flex-wrap: nowrap !important;
+  }
   #detail .s-15{
     font-size: 1.2rem;
   }
@@ -13705,6 +13704,9 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
+  #d-info{
+    flex-wrap: wrap;
+  }
   #detail .s-15{
     font-size: 1rem;
   }
@@ -13789,11 +13791,6 @@
   #f_caption {
     visibility: hidden;
     height: 0px;
-  }
-
-  #logo {
-    width: 150px;
-    height: 55px;
   }
 
   #chain {
@@ -17481,6 +17478,9 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
+  #d-info{
+    flex-wrap: wrap;
+  }
   #detail .s-15{
     font-size: 1rem;
   }
@@ -17570,10 +17570,7 @@
     height: 0px;
   }
 
-  #logo {
-    width: 150px;
-    height: 55px;
-  }
+
 
   #chain {
     height: 50px;
@@ -21281,6 +21278,9 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 321px) and (max-width: 389.98px) {
+  #d-info{
+    flex-wrap: wrap;
+  }
   #detail .s-15{
     font-size: 1rem;
   }
@@ -21351,11 +21351,6 @@
   #f_caption {
     visibility: hidden;
     height: 0px;
-  }
-
-  #logo {
-    width: 150px;
-    height: 55px;
   }
 
   #chain {
