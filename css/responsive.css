@@ -14,11 +14,11 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 1400px) {
-  #business-intelligence
-  {
+  #business-intelligence {
     width: 500px;
   }
-  #detail{
+
+  #detail {
     width: 150px;
   }
 }
@@ -32,28 +32,64 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
-  #d-info{
-    width: 40.33%;
+  .desktoplogo {
+    margin-left: 6%;
   }
-  #detail .s-15{
+
+  #holder #text-uc {
+    margin-top: 70px;
+  }
+
+  #holder #img-uc {
+    width: 300px;
+  }
+
+  #stable #text-uc {
+    margin-top: 80px;
+  }
+
+  #stable #img-uc {
+    width: 300px;
+  }
+
+  #cohort #img-uc {
+    width: 290px;
+
+  }
+
+  #cohort #text-uc {
+    margin-top: 70px;
+  }
+
+  #d-info {
+    width: 48.33%;
+  }
+
+  #detail .s-15 {
     margin-bottom: 20px;
   }
+
   #features-3 .col-lg-5 {
     width: 41.666667%;
   }
+
   .bottom-footer .row-cols-lg-3>* {
     flex: 0 0 auto;
     width: 38.3333333333%;
   }
-  .col-6 .s-14{
-    font-size:0.74rem ;
+
+  .col-6 .s-14 {
+    font-size: 0.74rem;
   }
-  .col-6 .s-13{
-    font-size:0.724rem ;
+
+  .col-6 .s-13 {
+    font-size: 0.724rem;
   }
-  .login-button{
-    padding-right: 10%;
+
+  .login-button {
+    padding-right: 6%;
   }
+
   #our-customers {
     width: 110px;
   }
@@ -193,9 +229,31 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
-  #d-info{
+  #business-intelligence .s-13 {
+    font-size: 0.7rem;
+  }
+
+  #bi-text {
+    width: 120%;
+
+  }
+
+  .col-6 .s-14 {
+    font-size: 0.7rem;
+  }
+
+  .login-button {
+    margin-right: 6%;
+  }
+
+  .desktoplogo {
+    margin-left: 6%;
+  }
+
+  #d-info {
     width: 50.33%;
   }
+
   .col-lg-3 {
     width: 49%;
   }
@@ -212,8 +270,8 @@
   }
 
   #chain {
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
   }
 
   #nft {
@@ -3748,22 +3806,27 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
-  #features-9 .row{
+  #features-9 .row {
     flex-wrap: nowrap !important;
   }
-  #detail .s-15{
+
+  #detail .s-15 {
     font-size: 1.2rem;
   }
-  #detail .s-13{
+
+  #detail .s-13 {
     font-size: 0.8rem;
   }
+
   .row-cols-1>* {
     flex: 0 0 auto;
     width: 92%;
-}
-  #d-info{
+  }
+
+  #d-info {
     padding-top: 25px;
   }
+
   #features-3 {
     padding-bottom: 20px;
   }
@@ -13704,25 +13767,31 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
-  #d-info{
+  #d-info {
     flex-wrap: wrap;
   }
-  #detail .s-15{
+
+  #detail .s-15 {
     font-size: 1rem;
   }
-  #detail .s-13{
+
+  #detail .s-13 {
     font-size: 0.7rem;
   }
+
   .row-cols-1>* {
     flex: 0 0 auto;
     width: 92%;
-}
-  #d-info{
+  }
+
+  #d-info {
     padding-top: 25px;
   }
-  #bi-d{
+
+  #bi-d {
     font-size: 10px;
   }
+
   .footer {
     padding-left: 10px;
   }
@@ -17478,25 +17547,31 @@
   /*------------------------------------------*/
   /*  BASE
   /*------------------------------------------*/
-  #d-info{
+  #d-info {
     flex-wrap: wrap;
   }
-  #detail .s-15{
+
+  #detail .s-15 {
     font-size: 1rem;
   }
-  #detail .s-13{
+
+  #detail .s-13 {
     font-size: 0.7rem;
   }
+
   .row-cols-1>* {
     flex: 0 0 auto;
     width: 92%;
-}
-  #d-info{
+  }
+
+  #d-info {
     padding-top: 25px;
   }
-  #bi-d{
+
+  #bi-d {
     font-size: 10px;
   }
+
   .footer {
     padding-left: 10px;
   }
@@ -21278,25 +21353,31 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 321px) and (max-width: 389.98px) {
-  #d-info{
+  #d-info {
     flex-wrap: wrap;
   }
-  #detail .s-15{
+
+  #detail .s-15 {
     font-size: 1rem;
   }
-  #detail .s-13{
+
+  #detail .s-13 {
     font-size: 0.7rem;
   }
+
   .row-cols-1>* {
     flex: 0 0 auto;
     width: 92%;
-}
-  #d-info{
+  }
+
+  #d-info {
     padding-top: 25px;
   }
-  #bi-d{
+
+  #bi-d {
     font-size: 10px;
   }
+
   .footer {
     padding-left: 10px;
   }
