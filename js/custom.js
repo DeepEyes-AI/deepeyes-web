@@ -1,6 +1,6 @@
 // JavaScript Document
 
-$(window).on("load", function () {
+$(window).on("load resize", function () {
   "use strict";
 
   /*----------------------------------------------------*/
